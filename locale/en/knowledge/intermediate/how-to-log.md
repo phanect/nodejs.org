@@ -55,7 +55,7 @@ The advantage here is that the behavior of our logging mechanisms can now be mod
 
 ### Winston - multi-transport logging made easy
 
-[Winston](https://github.com/indexzero/winston) is a multi-transport, asynchronous logging library for Node.js. It is conceptually similar to our custom logger, but comes with a wide variety of useful features and functionality baked in. In addition, `winston` is battle-hardened by internal use at Nodejitsu!
+[Winston](https://github.com/winstonjs/winston) is a multi-transport, asynchronous logging library for Node.js. It is conceptually similar to our custom logger, but comes with a wide variety of useful features and functionality baked in. In addition, `winston` is battle-hardened by internal use at Nodejitsu!
 
 Here is an example of setting up a `winston` logger. This example includes most of the transports one could ever possibly want - please note that most use cases will only warrant a few of these.
 
